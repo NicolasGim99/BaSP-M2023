@@ -1,23 +1,52 @@
-# BaSP 2023 Week 02 Nicolás De Arrascaeta
+# BaSP Become a Software Proffesional-2023 
+
+Become a Software Proffesional-2023 is BootCamp lunched by Radium Rocket.
+Focus on teaching how to desging a webpage.
+## Week-02
+This week we focused on creating a html file containing all the work done
+the previous week on figma. Using [VSCode](https://code.visualstudio.com/) to work on the code and [Git](https://git-scm.com/) and
+[GitHub](https://github.com/) to upload our progres.
+
+
+## VSCode 
+
+Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft.
+As I mentioned before We use VScode to work on Html 5 lenguage. It proves the
+basis of our webpage without the aesthetic part.
+
+## Git
+
+Git is a version control system used for tracking changes in computer files. It is generally used for source code management in software development.
+
+We used Git to push and save our progress into GitHub. Making use of this 
+[Tutorial](https://youtu.be/vGK-lWIs3sA) to config our Git and GitHub
 
 
 
-## Day 1
 
-I download all programs needed to work on the new problematic.
-They were Git and VSCode
+## GitHub
 
-## Day 2
+GitHub is a website and cloud-based service that helps developers store and manage their code.
 
-I created the files Index.html and README.md and the I configurated Git and then I pushed
-the files to my GitHub. Prior that I created the account and followed some steps watching
-a video from the material given in class.
 
-## Day 3 
+## Contributing
 
-I kept working on the html, this time I worked on the Images, I downloaded and placed them on 
-their  place into the webpage.
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-## Day 4 
+Please make sure to update tests as appropriate.
 
-I worked on the menu and order the html file. I tried to make a correct placement of everything addded.
+## License
+
+Nicolás De Arrascaeta
+
+
+
+
+
+
+
+
+
+
+
