@@ -17,3 +17,7 @@ a video from the material given in class.
 
 I kept working on the html, this time I worked on the Images, I downloaded and placed them on 
 their  place into the webpage.
+
+## Day 4 
+
+I worked on the menu and order the html file. I tried to make a correct placement of everything addded.
