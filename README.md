@@ -29,13 +29,6 @@ We used Git to push and save our progress into GitHub. Making use of this
 GitHub is a website and cloud-based service that helps developers store and manage their code.
 
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
 ## License
 
 Nicolás De Arrascaeta
