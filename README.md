@@ -1,39 +1,30 @@
 # BaSP Become a Software Proffesional-2023 
 
-Become a Software Proffesional-2023 is BootCamp lunched by Radium Rocket.
-Focus on teaching how to desging a webpage.
+
+
 ## Week-02
-This week we focused on creating a html file containing all the work done
-the previous week on figma. Using [VSCode](https://code.visualstudio.com/) to work on the code and [Git](https://git-scm.com/) and
-[GitHub](https://github.com/) to upload our progres.
+
+This time we had to start using **HTML** and codify what we did on figma the previous week.
 
 
-## VSCode 
+One can start working on a **HTML** by different means but we are going to be working with [VSCode](https://code.visualstudio.com/). All we need to do is to create a new file with the extension **.html** (Example.html) and open it with  **VSCode**
 
-Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft.
-As I mentioned before We use VScode to work on Html 5 lenguage. It proves the
-basis of our webpage without the aesthetic part.
+With that we had all we need. We made use of different materials provided by **Radium Rocket** to work on our webpage.[UsefulMaterial](https://drive.google.com/file/d/1F3N_BfRoy34ZgJZujENfuFOm-qxuko9T/view).
 
-## Git
+After that we used [Git](https://git-scm.com/) to save, share and commit the changes we were making and going through we upload them to [GitHub](https://github.com/). 
 
-Git is a version control system used for tracking changes in computer files. It is generally used for source code management in software development.
+Following this [Tutorial](https://youtu.be/vGK-lWIs3sA) to config Git and GitHub making an online repository where our work will be saved.
 
-We used Git to push and save our progress into GitHub. Making use of this 
-[Tutorial](https://youtu.be/vGK-lWIs3sA) to config our Git and GitHub
+
+ 
 
 
 
-
-## GitHub
-
-GitHub is a website and cloud-based service that helps developers store and manage their code.
 
 
 ## License
 
-Nicolás De Arrascaeta
-
-
+Nicolás De Arrascaeta.
 
 
 
