@@ -2,7 +2,10 @@
     margin:0px;
     padding: 0px;
 }
-
+body {
+    width:100vw;
+    overflow-x: hidden;
+}
 header{
     display: block;
     width: 1512px;
@@ -29,6 +32,7 @@ aside {
     height: 1068px;
     background: rgba(229, 242, 237, 1);
     display: block;
+   display: none;
 }
 
 aside h3{
@@ -125,17 +129,81 @@ color: #FFFFFF;
 }
 #Contact{
     width: 64.09px;
-   height: 66px;
+    height: 66px;
     left: 34.77px;
-   top: 760px;
-   position: absolute;
-   display: block;
+    top: 760px;
+    position: absolute;
+    display: block;
 }
 #Address{
     width: 64.09px;
-   height: 66px;
+    height: 66px;
     left: 34.77px;
-   top: 860px;
-   position: absolute;
-   display: block;
+    top: 860px;
+    position: absolute;
+    display: block;
+}
+
+#S1 {
+    width: 1512px;
+    height: 471px;
+    left: 0px;
+    top: 157px;
+    background: #D9D9D9;
+    display: block;
+}
+
+#S1 .h2-title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 53px;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 84px;
+    padding-top: 34px;
+}
+
+#S1 h3{
+
+    left: 84px;
+    top: 255px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin-left: 84px;
+    padding-top:9px;
+}
+
+#S1 #ImgGym{
+
+    position: absolute;
+    width: 267px;
+    height: 236px;
+    left: 1182px;
+    top: 274px;
+
+}
+
+#S1 .p-container{
+    height: 247px;
+    width: 1034px;
+    top: calc(50% - 247px/2 - 898px);
+    margin-left: 84px;
+    margin-top: 34px;
+}
+
+#S1 .p-container p{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
 }
