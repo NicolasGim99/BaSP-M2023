@@ -1,0 +1,188 @@
+body {
+    box-sizing: border-box;
+    position: relative;
+    width: 1512px;
+    height: 4121px;
+    overflow-y: scroll;
+
+background: #FFFFFF;
+}
+#S1,#S2,#S3 {
+    display: block;
+}
+header {
+    position: absolute;
+    width: 1512px;
+    height: 159px;
+    left: 0px;
+    top: 0px;
+    background: #373867;
+}
+
+h1 {
+    width: 223px;
+    height: 50px;
+    top: 55px;
+    position:static;
+    color: rgba(240, 240, 240, 1);
+    display: inline-block;
+    
+}
+/*
+aside {
+    
+    position: sticky;
+    width: 427px;
+    left: 0px;
+    top: 0px;
+    height: 1068px;
+    border: 1px solid rgba(0, 0, 0, 1)
+}
+
+.TitleMenu {
+    font-style: italic;
+    text-align: center;
+}
+a.Home {
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 67px;
+    left: 23px;
+    top: 113px;
+    background: #51A884;
+    border: 1px solid #000000;
+   
+}
+
+a.Log {
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 67px;
+    left: 23px;
+    top: 307px;
+    background: #51A884;
+    border: 1px solid #000000;
+   
+}
+a.Info {
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 67px;
+    left: 23px;
+    top: 404px;
+    background: #51A884;
+    border: 1px solid #000000;
+   
+}
+a.Sign {
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 67px;
+    left: 23px;
+    top: 210px;
+    background: #51A884;
+    border: 1px solid #000000;
+   
+}
+
+
+*/
+.UlTitle {
+    
+    display: none;
+}
+#S1 {
+    
+    width: 1512px;
+    height: 471px;
+    background: #D9D9D9;
+}
+
+#S1,h2{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#S1 p {
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;   
+}
+
+#ImgGym {
+    position: absolute;
+    width: 267px;
+    height: 236px;
+    left: 1182px;
+    top: 274px;
+    
+}
+
+#S2 {
+    
+    width: 1512px;
+    height: 691px;
+    background: #AACE9B;
+}
+
+
+#Icon1 {
+    
+    width: 109.93px;
+    height: 110px;
+    left: 88.94px;
+    top: 644px;
+}
+#S2 div {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+#DivA1 {
+    display: inline-block;
+    width:745px;
+    height:345.5px;
+
+}
+#DivA2 {
+    display: inline-block;
+    width:745px;
+    height:345.5px;
+   
+
+}
+#DivA3 {
+    display: inline-block;
+    width:745px;
+    height:345.5px;
+   
+
+}
+#DivA4 {
+    display: inline-block;
+    width:745px;
+    height:345.5px;
+}
+
+#S3 {
+   
+    width: 1512px;
+    height: 515px;
+    background: #35365C;
+
+}
