@@ -1,188 +1,141 @@
-body {
-    box-sizing: border-box;
-    position: relative;
-    width: 1512px;
-    height: 4121px;
-    overflow-y: scroll;
+* {
+    margin:0px;
+    padding: 0px;
+}
 
-background: #FFFFFF;
-}
-#S1,#S2,#S3 {
+header{
     display: block;
-}
-header {
-    position: absolute;
     width: 1512px;
     height: 159px;
-    left: 0px;
+    left: -1px;
     top: 0px;
     background: #373867;
+    display: block;
 }
 
-h1 {
+header h1 {
     width: 223px;
     height: 50px;
     top: 55px;
-    position:static;
+    position: absolute;
     color: rgba(240, 240, 240, 1);
     display: inline-block;
-    
+    right: 90px;
+    padding-left: 89px;
 }
-/*
+
 aside {
-    
-    position: sticky;
     width: 427px;
-    left: 0px;
-    top: 0px;
     height: 1068px;
-    border: 1px solid rgba(0, 0, 0, 1)
+    background: rgba(229, 242, 237, 1);
+    display: block;
 }
 
-.TitleMenu {
-    font-style: italic;
+aside h3{
+    width: 101.43px;
+    height: 61.31px;
+    left: 150.26px;
+    top: 32.27px;
     text-align: center;
-}
-a.Home {
-    box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 67px;
-    left: 23px;
-    top: 113px;
-    background: #51A884;
-    border: 1px solid #000000;
-   
-}
-
-a.Log {
-    box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 67px;
-    left: 23px;
-    top: 307px;
-    background: #51A884;
-    border: 1px solid #000000;
-   
-}
-a.Info {
-    box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 67px;
-    left: 23px;
-    top: 404px;
-    background: #51A884;
-    border: 1px solid #000000;
-   
-}
-a.Sign {
-    box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 67px;
-    left: 23px;
-    top: 210px;
-    background: #51A884;
-    border: 1px solid #000000;
-   
-}
-
-
-*/
-.UlTitle {
-    
-    display: none;
-}
-#S1 {
-    
-    width: 1512px;
-    height: 471px;
-    background: #D9D9D9;
-}
-
-#S1,h2{
+    padding-left: 150.26px;
+    padding-top: 32.27px;
     font-family: Roboto;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
+
 }
-#S1 p {
+
+nav li{
     font-family: Roboto;
-    font-size: 23px;
+    font-size: 32px;
     font-weight: 400;
-    line-height: 39px;
+    line-height: 38px;
     letter-spacing: 0em;
-    text-align: left;   
-}
-
-#ImgGym {
-    position: absolute;
-    width: 267px;
-    height: 236px;
-    left: 1182px;
-    top: 274px;
-    
-}
-
-#S2 {
-    
-    width: 1512px;
-    height: 691px;
-    background: #AACE9B;
-}
-
-
-#Icon1 {
-    
-    width: 109.93px;
-    height: 110px;
-    left: 88.94px;
-    top: 644px;
-}
-#S2 div {
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 1);
+    height: 67px;
+    width: 370px;
+    left: 23px;
+    top: 113px;
+    border-radius: 0px;
     text-align: center;
+    background-color: rgba(81, 168, 132, 1);
+    margin-left: 23px;
+    list-style: none;
+    margin-top: 20px;
+}
+nav li .LiText{
+     color: #FFFFFF;
+     text-decoration: none;
+}
+
+aside .Menu2 {
+    width: 370px;
+    height: 409px;
+    left: 22.77px;
+    top: 503px;
+    background-color: rgba(81, 168, 132, 1);
+    margin-top: 20px;
+    margin-left: 23px;
+    border: 1px solid rgba(0, 0, 0, 1)
+    
+}
+aside .Menu2 h5{
+    width: 191px;
+    height: 38px;
+    left: 108px;
+    top: 510px;
+    padding-left: 82.23px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 35px;
-    color: #FFFFFF;
+    line-height: 38px;
+    text-align: center;
 }
-
-#DivA1 {
-    display: inline-block;
-    width:745px;
-    height:345.5px;
-
+aside .Menu2 ul{
+    margin-inline-start: 100px;
 }
-#DivA2 {
-    display: inline-block;
-    width:745px;
-    height:345.5px;
-   
+aside .Menu2 li {
+    
+    margin-top: 40px;
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    display: flex;
+    align-items: left;
+    
 
+color: #FFFFFF;
 }
-#DivA3 {
-    display: inline-block;
-    width:745px;
-    height:345.5px;
-   
-
+ 
+#InfoIMG{
+    width: 64.09px;
+   height: 66px;
+    left: 34.77px;
+   top: 680px;
+   position: absolute;
+   display: block;
 }
-#DivA4 {
-    display: inline-block;
-    width:745px;
-    height:345.5px;
+#Contact{
+    width: 64.09px;
+   height: 66px;
+    left: 34.77px;
+   top: 760px;
+   position: absolute;
+   display: block;
 }
-
-#S3 {
-   
-    width: 1512px;
-    height: 515px;
-    background: #35365C;
-
+#Address{
+    width: 64.09px;
+   height: 66px;
+    left: 34.77px;
+   top: 860px;
+   position: absolute;
+   display: block;
 }
