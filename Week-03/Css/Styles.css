@@ -168,7 +168,6 @@ color: #FFFFFF;
     left: 86px;
 }
 #section1 h3{
-    font-family: 'Roboto';
     position: relative;
     font-family: 'Roboto';
     font-style: normal;
@@ -506,6 +505,30 @@ color: #FFFFFF;
     font-weight: 400;
     line-height: 42px;
     letter-spacing: 0em;
-    text-align: center;
-
+    text-align: center;   
+}
+#section4 {
+    width: 1512px;
+    height: 364px;
+    background: #AACE9B;
+}
+#section4 h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-left: 48px;
+}
+#section4 .p-container-h2{
+    width: 1369px;
+    height: 236px;font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    margin-left: 76px;
+    padding-top: 7px;
+    color: #FFFFFF;
 }
