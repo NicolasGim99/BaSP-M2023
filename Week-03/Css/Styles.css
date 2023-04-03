@@ -1,10 +1,14 @@
+html{
+    width: 1512px;
+}
 * {
     margin:0px;
     padding: 0px;
 }
 body {
-    width:100vw;
-    overflow-x: hidden;
+    width:1512px;
+    /*overflow-x: hidden;*/
+    font-family: 'Roboto';
 }
 header{
     display: block;
@@ -14,20 +18,22 @@ header{
     background: #373867;
 }
 header h1 {
-    width: 223px;
-    height: 50px;
-    top: 55px;
-    position: absolute;
+    position: relative;
     color: rgba(240, 240, 240, 1);
     display: inline-block;
     right: 90px;
     padding-left: 89px;
+    width: 206px;
+    height: 42px;
+    left: 1216px;
+    top: 58px;
 }
 aside {
     width: 427px;
     height: 1068px;
     background: rgba(229, 242, 237, 1);
     display: block;
+    /*display: none;*/
 }
 aside h3{
     width: 101.43px;
@@ -163,13 +169,15 @@ color: #FFFFFF;
 }
 #section1 h3{
     font-family: 'Roboto';
+    position: relative;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 38px;
-    position: relative;
-    left: 86px;
-    padding-top: 9px;
+    margin-left: 86px;
+    
+    
 }
 #section1 .p-container{
     height: 247px;
@@ -251,13 +259,14 @@ color: #FFFFFF;
     font-size: 30px;
     line-height: 35px;
     color: #FFFFFF;
+    left: 110px;
 }
 #section2 .opt2{
     height: 285px;
     width:573.62px;
     display: inline-block;
     position: relative;
-    left: 82px;
+    left: 300px;
 }
 #section2 .opt2 .img-opt2{
     position: relative;
@@ -301,13 +310,14 @@ color: #FFFFFF;
     font-size: 30px;
     line-height: 35px;
     color: #FFFFFF;
+    left: 110px;
 }
 #section2 .opt3{
     height: 285px;
     width:573.62px;
     display: inline-block;
     position: relative;
-    top: -32px;
+    top: -65px;
     left: 82px;
 }
 #section2 .opt3 .img-opt3{
@@ -352,13 +362,14 @@ color: #FFFFFF;
     font-size: 30px;
     line-height: 35px;
     color: #FFFFFF;
+    left: 110px;
 }
 #section2 .opt4{
     height: 285px;
     width:573.62px;
     display: inline-block;
     position: relative;
-    left: 82px;
+    left: 300px;
 }
 #section2 .opt4 .img-opt4{
     position: relative;
@@ -402,4 +413,99 @@ color: #FFFFFF;
     font-size: 30px;
     line-height: 35px;
     color: #FFFFFF;
+    left: 110px;
+}
+#section3{
+    width: 1512px;
+    height: 515px;
+    background: #35365C;
+}
+#section3 h2{
+    width: 1379px;
+    height: 70px;
+    left: 80px;
+    top: 1361px;
+    padding-top: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    padding-left: 86px;
+    color: #FFFFFF;
+}
+#section3 .options-s3{
+    width: 455px;
+    height: 310px;
+    display: inline-block;
+    margin-left: 119px;
+}
+#section3 .options-s3 input{
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    width: 392px;
+    height: 37px;
+}
+#section3 .options-s3 .in1-s3,.in2-s3,.in3-s3{
+    padding-top: 26px;
+    
+}
+#section3 select{
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    width: 392px;
+    height: 37px;
+    margin-top: 26px;
+}/*
+#section3 .message-s3{
+    width: 745px;
+    height: 175px;
+    border: solid 3px black;
+    display: inline-block;
+    bottom: 180px;
+    position: relative;
+    background-color: #FFFFFF;
+}*/
+#section3 textarea{
+    width: 745px;
+    height: 175px;
+    border: 1px solid rgba(73, 163, 123, 1);
+    display: inline-block;
+    position: relative;
+    background-color: #FFFFFF;
+    bottom:36px
+}
+#section3 #button-a{
+    position: relative;
+    right: 578px;
+    height: 70px;
+    width: 120px;
+    top: 60px;
+    background: #49A37B;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#section3 #button-b{
+    position: relative;
+    height: 70px;
+    width: 120px;
+    left: 1050px;
+    bottom: 60px;
+    background: #49A37B;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+
 }
