@@ -532,3 +532,94 @@ color: #FFFFFF;
     padding-top: 7px;
     color: #FFFFFF;
 }
+#section5 {
+    width: 1512px;
+    height: 360px;
+    background: #D9D9D9;
+}
+#section5 .activities,.black-m,.classic-m,.o-classes{
+    width: 24%;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+#section5 .activities h3{
+    border: 3px solid rgba(55, 56, 103, 1);
+    box-sizing: border-box;
+    width: 182px;
+    height: 42px;
+    margin-left: 25px;
+    margin-top: 67px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+color: #373867;
+}
+#section5 .activities ol{
+    left: 70px;
+    position: relative;
+    padding-top: 24px;
+}
+#section5 .black-m h3{
+    border: 3px solid rgba(55, 56, 103, 1);
+    box-sizing: border-box;
+    width: 272px;
+    height: 42px;
+    margin-left: 25px;
+    margin-top: 67px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    position: relative;
+    right: 45px;
+}
+#section5 .black-m ul{
+    position: relative;
+    top: 20px;
+}
+#section5 .classic-m h3{
+    border: 3px solid rgba(55, 56, 103, 1);
+    box-sizing: border-box;
+    width: 265px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 84px;
+}
+#section5 .classic-m ul{
+    position: relative;
+    top: -65px;
+}
+#section5 .o-classes h3{
+    border: 3px solid rgba(55, 56, 103, 1);
+    box-sizing: border-box;
+    width: 326px;
+    height: 42px;
+    margin-left: 25px;
+    margin-top: 67px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    position: relative;
+    right: 45px;
+    top: -84px;
+}
+#section5 .o-classes ul{
+    position: relative;
+    top: -70px;
+}
