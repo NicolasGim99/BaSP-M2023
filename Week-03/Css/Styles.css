@@ -110,7 +110,7 @@ aside .Menu2 li {
     line-height: 32px;
     display: flex;
     align-items: left;
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 aside .Menu2 li {
     margin-top: 40px;
@@ -175,8 +175,7 @@ color: #FFFFFF;
     font-size: 32px;
     line-height: 38px;
     margin-left: 86px;
-    
-    
+    padding-top: 12px;
 }
 #section1 .p-container{
     height: 247px;
@@ -456,16 +455,7 @@ color: #FFFFFF;
     width: 392px;
     height: 37px;
     margin-top: 26px;
-}/*
-#section3 .message-s3{
-    width: 745px;
-    height: 175px;
-    border: solid 3px black;
-    display: inline-block;
-    bottom: 180px;
-    position: relative;
-    background-color: #FFFFFF;
-}*/
+}
 #section3 textarea{
     width: 745px;
     height: 175px;
@@ -560,6 +550,7 @@ color: #FFFFFF;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    color: #373867;
 
 color: #373867;
 }
@@ -582,6 +573,7 @@ color: #373867;
     line-height: 28px;
     position: relative;
     right: 45px;
+    color: #373867;
 }
 #section5 .black-m ul{
     position: relative;
@@ -598,6 +590,7 @@ color: #373867;
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 84px;
+    color: #373867;
 }
 #section5 .classic-m ul{
     position: relative;
@@ -618,8 +611,48 @@ color: #373867;
     position: relative;
     right: 45px;
     top: -84px;
+    color: #373867;
 }
 #section5 .o-classes ul{
     position: relative;
     top: -70px;
+}
+footer{
+    width: 1512px;
+    height: 133px;
+    background: #AACE9B;
+}
+footer p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    top: -20px;
+    margin-left: 45px;
+}
+footer #logo-in{
+    display: inline-block;
+    position: relative;
+    padding-left: 268px;
+    width: 71px;
+    height: 71px;
+    padding-top: 31px;
+}
+footer #logo-facebook{
+    display: inline-block;
+    position: relative;
+    padding-left: 52px;
+    width: 71px;
+    height: 71px;
+}
+footer #logo-ig{
+    display: inline-block;
+    position: relative;
+    padding-left: 52px;
+    width: 71px;
+    height: 71px;
 }
