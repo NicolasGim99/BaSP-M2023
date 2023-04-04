@@ -18,6 +18,21 @@ Following this [Tutorial](https://youtu.be/vGK-lWIs3sA) to config Git and GitHub
 Taking a look into **Figma** I started developing the webpage. Following step by step the design of the desktop landing page that was done last week. I focused on each and every part of the design and wrote it on VSCode. 
 
 The main point was to make the basis of the page without the esthetic appearance part.
+
+## Week-03
+
+This week we focused on giving style to our html, It must be the same as the Desktop Landing Page done previously on Figma.
+
+We start creating a new folder called Css and inside of it, We create 2 files **restet.css** which provides our html with all the characteristic needed to work on.
+And **styles.css**, this file will provide all styles to our html such as background colours, fonts, etc.
+
+To develope this file we use **VSCode** once again. We also use the tool **Inspect** which is found in all browsers.
+
+This tool help us to give styles without affecting the code directly. As an example one can change the width of an element and have a preview of it. After that, if the change work correctly one can edit the code. With this we can prevent errors and save some time insted trying several times to achive what we want. 
+
+
+
+
  
 
 
