@@ -339,12 +339,22 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         width: 267px;
         height: 236px;
     }
-    #section1 h2,h3{
+    #section1 .h2-title{
         text-align: left;
         margin-left: 84px;
     }
-    
+    #section2 .op1p,.op2p,.op3p,.op4p{
+        width: 442px;
+    }
+    #section2 p{
+        line-height: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #section2 .opt1,.opt2,.opt3,.opt4{
+        margin-left: 40px; 
+        width: 40%;
+        margin-top: 20px;
+    }
    
-
-
 }
