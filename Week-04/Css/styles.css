@@ -162,6 +162,8 @@ aside{
 #section3 .but-container{
     display: flex;
     justify-content: space-around;
+    width: 50%;
+    align-self: center;
 }
 #section4{
     width: 100vw;
@@ -292,12 +294,6 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         color: #FFFFFF;
         line-height: 46px;
     }
-    /*#section2 .s2-column1,.s2-column2{
-        width: 49%;
-        display: flex;
-        flex-direction: row;
-        
-    }*/
     #section2 .opt1,.opt2,.opt3,.opt4{
         width: 49%;
         display: flex;
@@ -310,5 +306,9 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         width: 180px;
         height: 45px;
     }
+    #button-a{
+        margin-right: 30px;
+    }
+   
 
 }
