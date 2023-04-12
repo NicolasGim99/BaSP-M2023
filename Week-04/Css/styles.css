@@ -306,9 +306,21 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         width: 180px;
         height: 45px;
     }
-    #button-a{
-        margin-right: 30px;
+    #section3 h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
     }
+    #section4 p{
+        width: 97vw;
+        padding: 20px 10px 0 10px;
+    }
+    
    
 
 }
