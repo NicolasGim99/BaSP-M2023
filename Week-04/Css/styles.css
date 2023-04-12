@@ -165,6 +165,9 @@ aside{
     width: 50%;
     align-self: center;
 }
+#section3 .sec3-cont2{
+    align-self: center;
+}
 #section4{
     width: 100vw;
     display: flex;
@@ -316,6 +319,9 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         text-transform: uppercase;
         color: #FFFFFF;
     }
+    #section3 .sec3-cont2{
+        align-self: center;
+    }
     #section4 p{
         width: 97vw;
         padding: 20px 10px 0 10px;
@@ -342,19 +348,101 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
     #section1 .h2-title{
         text-align: left;
         margin-left: 84px;
+        
     }
     #section2 .op1p,.op2p,.op3p,.op4p{
         width: 442px;
+        
     }
     #section2 p{
         line-height: 25px;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+
     }
     #section2 .opt1,.opt2,.opt3,.opt4{
         margin-left: 40px; 
         width: 40%;
         margin-top: 20px;
     }
-   
+    #section2 h3{
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 342px;
+        height: 67px;
+        margin-top: 15px;
+    }
+    #section2 img{
+        width: 110px;
+        height: 110px;
+    }
+    #section3{
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+    #section3 .inp-container{
+    margin-left: 20px;
+   }
+   #section3 .inp-container input{
+    width:392px ;
+    height: 39px;
+   }
+   #section3 textarea{
+    height: 175px;
+    width: 700px;
+    margin-left: 30px;
+   }
+   #section3 h2{
+    width: 100vw;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+
+   }
+   #section3 .sec3-cont2{
+    width: 800px;
+    height: 250px;
+   }
+   #section3 select{
+    width: 392px;
+    height: 39px
+   }
+   #section3 .but-container{
+    padding-left: 150px;
+   }
+   #section4{
+    align-items: flex-start;
+   }
+   #section4 p{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+   }
+   #section5{
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+   #section5 .activities, .black-m, .classic-m, .o-classes{
+    width: 23%;
+   }
+   footer{
+    display: flex;
+    flex-direction: row;
+   }
 }
