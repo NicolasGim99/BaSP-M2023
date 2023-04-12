@@ -320,7 +320,31 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         width: 97vw;
         padding: 20px 10px 0 10px;
     }
+}
+/* For Desktop: */
+@media only screen and (min-width:1200px) {
+
+    header{
+        height:159px;
+        justify-content:flex-end;
+    }
+    #section1 p{
+        text-align: left;
+        margin-left: 84px;
+    }
+    #section1 .p-container{
+        width: 70%;
+    }
+    #section1 img{
+        width: 267px;
+        height: 236px;
+    }
+    #section1 h2,h3{
+        text-align: left;
+        margin-left: 84px;
+    }
     
    
+
 
 }
