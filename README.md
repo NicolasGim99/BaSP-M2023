@@ -30,8 +30,9 @@ To develope this file we use **VSCode** once again. We also use the tool **Inspe
 
 This tool help us to give styles without affecting the code directly. As an example one can change the width of an element and have a preview of it. After that, if the change work correctly one can edit the code. With this we can prevent errors and save some time insted trying several times to achive what we want. 
 
+## Week-04
 
-
+This week we did a responsive desing using flexbox. We started doing a phone first desing and then setting different breakpoint to adjust the resolutions.
 
  
 
