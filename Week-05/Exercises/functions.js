@@ -3,9 +3,10 @@
  Ejecutar la función y guardar el resultado en una variable, mostrando el valor de
   dicha variable en la consola del navegador.*/
 
-console.log("---------------------------------");
 console.log("Functions");
+console.log("");
 //A
+console.log("Ejercicio A");
 console.log("");
 
 
@@ -15,14 +16,15 @@ function addition(a,b){
 var add= addition(num1,num2);
 var num1=12;
 var num2=13;
-console.log(add);
+    console.log(add);
 
 //B
 /*Copiar la función suma anterior y agregarle una validación para controlar si alguno
  de los parámetros no es un número; de no ser un número, mostrar un alert aclarando que 
  uno de los parámetros tiene error y retornar el valor NaN como resultado.*/
 
- console.log(" ");
+console.log("Ejercicio B");
+console.log("");
 
 function addition2(a,b){
     
@@ -36,8 +38,8 @@ function addition2(a,b){
    
 }
 var var1,var2
-var1="hola";
-var2=12;
+    var1="hola";
+    var2=12;
 var ale=(addition2(var1,var2));
 
 
@@ -46,6 +48,8 @@ var ale=(addition2(var1,var2));
 //C
 /*Crear una función “validateInteger” que reciba un número como parámetro y devuelva verdadero
  si es un número entero.*/
+    console.log("Ejercicio C");
+    console.log("");
 
  function validateInteger(a){
 
@@ -60,7 +64,8 @@ var ale=(addition2(var1,var2));
   del ejercicio 6c. y que valide que los números sean enteros. En caso que haya decimales mostrar
    un alert con el error y retornar el número convertido a entero (redondeado).*/
 
-console.log(" ");
+   console.log("Ejercicio F");
+   console.log("");
 
 function addition3(a,b){
     if(isNaN(a) || isNaN(b)){
@@ -69,36 +74,37 @@ function addition3(a,b){
     }
     else {
         if (validateInteger(a) != true) {
-            alert("No es un número entero" + Math.round(a))
+            alert("It's not an integer " + Math.round(a))
 
         }
         if (validateInteger(b) != true){
-            alert("No es un número entero" + Math.round(b))
+            alert("It's not an integer " + Math.round(b))
         }
         return(Math.round(a)+Math.round(b));
     }
 }
 var numm1,numm2,cuenta
-numm1= 7;
-numm2=8.5;
-cuenta=addition3(numm1,numm2);
-console.log(cuenta);
+    numm1= 7;
+    numm2=8.5;
+    cuenta=addition3(numm1,numm2);
+    alert("They are integer " + cuenta);
 
 //E
 /*Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de una nueva
  función probando que todo siga funcionando igual que en el apartado anterior.*/
 
- console.log(" ");
+    console.log("Ejercicio E");
+    console.log("");
 
  function val(a,b){
 
     return(addition3);
  }
  var numm1,numm2,cuenta
- numm1= 10;
- numm2=7.5;
- cuenta=addition3(numm1,numm2);
- alert("Funciona" + " " + cuenta);
+    numm1= 10;
+    numm2=7.5;
+    cuenta=addition3(numm1,numm2);
+    console.log("It works" + " " + cuenta);
  
 
 
