@@ -13,10 +13,10 @@ console.log("");
 function addition(a,b){
     return (a+b);
 }
-var add= addition(num1,num2);
-var num1=12;
-var num2=13;
-    console.log(add);
+var add = addition(num1,num2);
+var num1 = 12;
+var num2 = 13;
+console.log(add);
 
 //B
 /*Copiar la función suma anterior y agregarle una validación para controlar si alguno
@@ -38,8 +38,8 @@ function addition2(a,b){
    
 }
 var var1,var2
-    var1="hola";
-    var2=12;
+    var1 = "hola";
+    var2 = 12;
 var ale=(addition2(var1,var2));
 
 
@@ -56,7 +56,7 @@ var ale=(addition2(var1,var2));
     return(Number.isInteger(a));
    
  }
- var val= validateInteger(5.5);
+ var val = validateInteger(5.5);
  console.log(val);
 
  //D
@@ -64,8 +64,8 @@ var ale=(addition2(var1,var2));
   del ejercicio 6c. y que valide que los números sean enteros. En caso que haya decimales mostrar
    un alert con el error y retornar el número convertido a entero (redondeado).*/
 
-   console.log("Ejercicio F");
-   console.log("");
+console.log("Ejercicio F");
+console.log("");
 
 function addition3(a,b){
     if(isNaN(a) || isNaN(b)){
@@ -84,26 +84,26 @@ function addition3(a,b){
     }
 }
 var numm1,numm2,cuenta
-    numm1= 7;
-    numm2=8.5;
-    cuenta=addition3(numm1,numm2);
-    alert("They are integer " + cuenta);
+numm1 = 7;
+numm2 = 8.5;
+cuenta = addition3(numm1,numm2);
+alert("They are integer " + cuenta);
 
 //E
 /*Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de una nueva
  función probando que todo siga funcionando igual que en el apartado anterior.*/
 
-    console.log("Ejercicio E");
-    console.log("");
+console.log("Ejercicio E");
+console.log("");
 
  function val(a,b){
 
     return(addition3);
  }
  var numm1,numm2,cuenta
-    numm1= 10;
-    numm2=7.5;
-    cuenta=addition3(numm1,numm2);
+    numm1 = 10;
+    numm2 = 7.5;
+    cuenta = addition3(numm1,numm2);
     console.log("It works" + " " + cuenta);
  
 
