@@ -16,7 +16,6 @@ header{
 }
 header h1{
     padding: 0 7px 0 0;
-    width: 206px;
     margin-top: 9px;
     margin-bottom: 9px;
     height: 42px;
@@ -84,7 +83,6 @@ aside{
     display: none;
 }
 #section2 h3{
-    width: 342px;
     padding: 14px 0 14px 0;
     border: 1px solid;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(170, 206, 155, 0.41);
@@ -100,8 +98,23 @@ aside{
     color: rgba(255, 255, 255, 1);
     margin-bottom: 40px;
 }
-#section2 img{
-    padding:14px 0 14px 120px;
+#section2 .img-opt1{
+    padding:14px 0 14px 90px;
+    width: 110px;
+    height: 110px;
+}
+#section2 .img-opt2{
+    padding:14px 0 14px 60px;
+    width: 110px;
+    height: 110px;
+}
+#section2 .img-opt3{
+    padding:14px 0 14px 80px;
+    width: 110px;
+    height: 110px;
+}
+#section2 .img-opt4{
+    padding:14px 0 14px 30px;
     width: 110px;
     height: 110px;
 }
@@ -129,7 +142,7 @@ aside{
 }
 #section3 .inp-container input{
     height: 33px;
-    width: 312px;
+    width: 77vw;
     border-radius: 10px;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -138,13 +151,13 @@ aside{
     display: flex;
     align-self: center;
     height: 36px;
-    width: 312px;
+    width: 77vw;
     border-radius: 10px;
     margin-bottom: 16px;
     margin-top: 30px;
 }
 #section3 textarea{
-    width: 312px;
+    width: 77vw;
     height: 122px;
     align-self: center;
 }
@@ -186,8 +199,8 @@ aside{
     padding-top: 20px;
 }
 #section4 p{
-    width: 335px;
-    height: 220px;
+    
+   
     font-family: Roboto;
     font-size: 24px;
     font-weight: 600;
@@ -208,7 +221,6 @@ aside{
 }
 #section5 .activities,.black-m,.classic-m,.o-classes{
     display: flex;
-    width: 390px;
     align-items: center;
     flex-direction: column;
 }
@@ -240,7 +252,69 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
 }
 /* For tablets: */
 @media only screen and (min-width: 600px) {
-  
+    aside{
+        width: 30vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    aside h3{
+        margin-left: 5vw;
+        font-family: Roboto;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    nav li{
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 1);
+        border-radius: 20px;
+        background-color: rgba(81, 168, 132, 1);
+        margin-left: 23px;
+        list-style: none;
+        margin-top:25px;
+        margin-bottom:25px;
+        color: #FFFFFF;
+    }
+    aside .Menu2{
+        box-sizing: border-box;
+        background: #51A884;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    aside h5{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    main{
+        width: 70vw;
+        margin-left: 30vw;
+    }
+    header{
+        margin-left: 30vw;
+        height:159px;
+        justify-content:flex-end;
+        width: 70vw;
+    }
+    #section1,#section2,#section3,#section4,#section5{
+        width: 70vw;
+    }
     header{
         display: flex;
         height: 169px;
@@ -252,7 +326,6 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         align-items: flex-start;
     }
     #section1 .h2-title{
-        width: 100vw;
         padding: 16px 0 16px 0;
     }
     #section1 .p-container{
@@ -277,7 +350,7 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
     }
     #section2 img{
         width: 50px;
-        height: 44px;
+        height: 44.23px;
         padding: 0 0 0 0;
     }
     #section2 h3{
@@ -319,20 +392,37 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         text-transform: uppercase;
         color: #FFFFFF;
     }
+    #section3 .inp-container input{
+        width: 50vw;
+    }
+    #section3 select{
+        width: 50vw;
+    }
+    #section3 textarea{
+        width: 60vw;
+    }
     #section3 .sec3-cont2{
         align-self: center;
     }
     #section4 p{
-        width: 97vw;
         padding: 20px 10px 0 10px;
     }
 }
 /* For Desktop: */
-@media only screen and (min-width:1200px) {
-
+@media only screen and (min-width:1024px) {
+    main{
+        width: 70vw;
+        margin-left: 30vw;
+    }
     header{
+        margin-left: 30vw;
         height:159px;
         justify-content:flex-end;
+        width: 70vw;
+    }
+    #section1,#section2,#section3,#section4,#section5{
+        width: 70vw;
+        
     }
     #section1 p{
         text-align: left;
@@ -378,7 +468,7 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         line-height: 35px;
         letter-spacing: 0em;
         text-align: center;
-        width: 342px;
+        width: 25vw;
         height: 67px;
         margin-top: 15px;
     }
@@ -387,62 +477,168 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         height: 110px;
     }
     #section3{
-    flex-direction: row;
-    flex-wrap: wrap;
-   }
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     #section3 .inp-container{
-    margin-left: 20px;
-   }
-   #section3 .inp-container input{
-    width:392px ;
-    height: 39px;
-   }
-   #section3 textarea{
-    height: 175px;
-    width: 700px;
-    margin-left: 30px;
-   }
-   #section3 h2{
-    width: 100vw;
-    font-family: Roboto;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 70px;
-    letter-spacing: 0em;
-    text-align: center;
-
-   }
-   #section3 .sec3-cont2{
-    width: 800px;
-    height: 250px;
-   }
-   #section3 select{
-    width: 392px;
-    height: 39px
-   }
-   #section3 .but-container{
-    padding-left: 150px;
-   }
-   #section4{
-    align-items: flex-start;
-   }
-   #section4 p{
-    font-family: Roboto;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 40px;
-    letter-spacing: 0em;
-    text-align: left;
-   }
-   #section5{
-    flex-direction: row;
-    flex-wrap: wrap;
-   }
-   #section5 .activities, .black-m, .classic-m, .o-classes{
-    width: 23%;
-   }
-   footer{
-    display: flex;
-    flex-direction: row;
-   }
+        margin-left: 20px;
+    }
+    #section3 .inp-container input{
+        width:392px ;
+        height: 39px;
+     }
+    #section3 textarea{
+        height: 175px;
+        width: 700px;
+        margin-left: 30px;
+    }
+    #section3 h2{
+        width: 100vw;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    #section3 .sec3-cont2{
+        width: 800px;
+        height: 250px;
+     }
+    #section3 select{
+        width: 392px;
+        height: 39px
+    }
+    #section3 .but-container{
+        padding-left: 150px;
+    }
+    #section4{
+        align-items: flex-start;
+    }
+    #section4 p{
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    #section5{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #section5 .activities, .black-m, .classic-m, .o-classes{
+        width: 23%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+    }
+    aside {
+        width: 30vw;
+        height: 1068px;
+        background: rgba(229, 242, 237, 1);
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        /*display: none;*/
+    }
+    aside h3{
+        width: 30vw;
+        height: 61.31px;
+        left: 150.26px;
+        top: 32.27px;
+        text-align: center;
+        padding-left: 150.26px;
+        padding-top: 32.27px;
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    nav li{
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        border: 1px solid rgba(0, 0, 0, 1);
+        height: 67px;
+        width: 25vw;
+        border-radius: 0px;
+        text-align: center;
+        background-color: rgba(81, 168, 132, 1);
+        margin-left: 23px;
+        list-style: none;
+        margin-top: 20px;
+    }
+    nav li .LiText{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    aside .Menu2 {
+        width: 25vw;
+        height: 409px;
+        left: 22.77px;
+        top: 503px;
+        background-color: rgba(81, 168, 132, 1);
+        margin-top: 20px;
+        margin-left: 23px;
+        border: 1px solid rgba(0, 0, 0, 1)
+    }
+    aside .Menu2 h5{
+        width: 191px;
+        height: 38px;
+        left: 108px;
+        top: 510px;
+        padding-left: 82.23px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        text-align: center;
+    }
+    aside .Menu2 ul{
+        margin-inline-start: 100px;
+    }
+    aside .Menu2 li {
+        margin-top: 40px;
+        list-style: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 32px;
+        display: flex;
+        align-items: left;
+        color: #FFFFFF;
+    }
+    #InfoIMG{
+        width: 64.09px;
+        height: 66px;
+        left: 34.77px;
+        top: 680px;
+        position: absolute;
+        display: block;
+    }
+    #Contact{
+        width: 64.09px;
+        height: 66px;
+        left: 34.77px;
+        top: 760px;
+        position: absolute;
+        display: block;
+    }
+    #Address{
+        width: 64.09px;
+        height: 66px;
+        left: 34.77px;
+        top: 860px;
+        position: absolute;
+        display: block;
+    }
 }
