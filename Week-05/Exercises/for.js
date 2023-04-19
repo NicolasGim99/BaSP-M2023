@@ -7,33 +7,36 @@ console.log("Ejercicio A-B-C");
 console.log("");
 
 /* A-Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for
- de JavaScript para mostrar una alerta utilizando cada una de las palabras.*/
-
- /*B-Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una
-  alerta por cada palabra modificada.*/
-
-  /*C-Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a)
-   recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence.
-    Al final mostrar una única alerta con la cadena completa.*/
-
-
+de JavaScript para mostrar una alerta utilizando cada una de las palabras.*/
 
 var list=["limón","fresa","mango","melón","peras"];
-var place=0;
+for (var i=0; i<=4; i++){
+    alert(list[i]);
+}
+
+
+
+/*B-Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una
+alerta por cada palabra modificada.*/
+
+var list=["limón","fresa","mango","melón","peras"];
+for (var i=0; i<=4; i++){
+    var firstLetter=list[i];
+    var upp=firstLetter.toUpperCase();
+    var upp1=upp.substring(0,1);
+    var upp2=upp1+firstLetter.substring(1,5);
+    alert(upp2);
+}
+
+/*C-Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a)
+recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence.
+Al final mostrar una única alerta con la cadena completa.*/
+
 var sentences="";
-    for (var i=0; i<=4; i++){
-
-        alert(list[place]);
-        var a=list[place];
-        var upp=a.toUpperCase();
-        var upp1=upp.substring(0,1);
-        var upp2=upp1+a.substring(1,5);
-        alert(upp2);
-        sentences=sentences+list[place]+" ";
-        place++;
-
-    }
-    alert(sentences);
+for (var i=0; i<=4; i++){
+    sentences=sentences+list[i]+" ";
+}
+alert(sentences);
 
 //D
 

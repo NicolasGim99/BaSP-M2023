@@ -71,8 +71,8 @@ console.log(all);
 console.log("Part G");
 console.log("");
 
-var copy_Months=["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-var slice= copy_Months.slice(4,10);
+var copyMonth = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var slice = copyMonth.slice(4,10);
 console.log(slice);
 
 
