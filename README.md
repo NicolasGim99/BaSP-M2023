@@ -34,6 +34,9 @@ This tool help us to give styles without affecting the code directly. As an exam
 
 This week we did a responsive desing using flexbox. We started doing a phone first desing and then setting different breakpoint to adjust the resolutions.
 
+## Week 05
+
+This week we focused on correcting our Css file from week 04. Additionally we started working with **JavaScript**. We had to do some excercises to practise all we saw on class and in the extra material. Creating a new file por each one, and this was put into a new folder in week 05. That, of course was all pushed to GitHub. 
  
 
 
