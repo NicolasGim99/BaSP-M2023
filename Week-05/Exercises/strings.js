@@ -76,7 +76,8 @@ word2 = word2.substring(0,1);
 word2 = word2.toUpperCase();
 word2 = word2+words.substring(12,21);
 var word3 = word1 + " " + word2;
-console.log(word3);
+console.log(word3);   
+
 
 
 
