@@ -1,0 +1,90 @@
+body{
+    background-color: #c4c4c4;
+}
+.signContainer{
+    display: flex;
+    flex-direction: column;
+    width: 452px;
+    background: #ffffff;
+}
+.signContainer h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2C8008;
+    margin-top: 36px;
+}
+.signContainer input{
+    width: 70%;
+    margin-top: 36px;
+    border-bottom:solid rgba(170, 206, 155, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.signContainer .cont1,.cont2,.cont3,.cont4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.signContainer .cont3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cont3 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #4362D0;
+}
+.signContainer .cont4{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    flex-wrap: wrap;*/
+}
+.cont4 p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+.cont4 h2{
+    margin: 0 0 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+.cont4 h3{
+    color: #1921EE;
+    margin: 0 0 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+button{
+    width: 70%;
+    align-self: center;
+    margin-top: 42px;
+    margin-bottom: 25px;
+    width: 290px;
+    height: 48px;
+    background: #AACE9B;
+    border-radius: 8px;
+    color:#ffffff;
+    border: none;
+}
