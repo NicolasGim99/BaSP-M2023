@@ -4,7 +4,6 @@ body{
 .signContainer{
     display: flex;
     flex-direction: column;
-    width: 452px;
     background: #ffffff;
 }
 .signContainer h1{
@@ -24,15 +23,24 @@ body{
     border-left: none;
     border-right: none;
 }
-.signContainer .cont1,.cont2,.cont3,.cont4{
+.signContainer .cont2,.cont3,.cont4{
     display: flex;
     justify-content: center;
     text-align: center;
 }
+.signContainer .cont2{
+    flex-direction: column;
+}
+.span{
+    height: 40px;
+    color: red;
+    display: none;
+}
 .signContainer .cont3{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+   text-align: center;
+    align-items: center;
 }
 .cont3 p{
     font-family: 'Inter';
@@ -88,3 +96,13 @@ button{
     color:#ffffff;
     border: none;
 }
+.error{
+    background-color: #d32f2f;
+}
+.correct{
+    background-color:green ;
+}
+.visible{
+    display: block;
+}
+
