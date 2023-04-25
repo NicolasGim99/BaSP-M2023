@@ -26,7 +26,7 @@ window.onload = function () {
 
     }
    
-    mail.addEventListener("blur" , function() {
+    mail.addEventListener("blur", function() {
        if(validateMail(mail)){
         mail.classList.add("correct");
         mail.classList.remove("error");

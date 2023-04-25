@@ -4,50 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../Week-04/Css/reset.css">
+   <!-- <link rel="stylesheet" type="text/css" href="../Week-04/Css/reset.css">-->
     <link rel="stylesheet" type="text/css" href="/Week-06/css/sign-up.css">
+    <link rel="stylesheet" type="text/css" href="/Week-06/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/Week-06/css/footer.css">
+    <script src="/Week-06/js/sign-up.js"></script>
     <title>Sing Up</title>
 </head>
 <body>
-    <div class="regContainer">
-        <div class="bar">
-            <img src="" alt="">
-            <h1>Register</h1>
-            <div class="imgBox">
+    <header>
+        <h1>MegaR<img id=Logo src="/Assets/Img/LOGO-RR_1.jpg" alt="Logo picture" >cket</h1>
+        <img src="" alt="">
+    </header>
+    <main>
+        <div class="regContainer">
+            <div class="bar">
                 <img src="" alt="">
+                <h1>Register</h1>
+                <div class="imgBox">
+                    <img src="" alt="">
+                </div>
+        
             </div>
-            
+                <div class="data">
+                    <div class="col1">
+                        <label for="">Name</label>
+                        <input id="nameImp" type="text">
+                        <span></span>
+                        <label for="">Last Name</label>
+                        <input id="lastName" type="text">
+                        <span></span>
+                        <label  for="">DNI</label>
+                        <input id="dni" type="text">
+                        <span></span>
+                        <label for="">Birth Date</label>
+                        <input type="date">
+                        <span></span>
+                        <label for="">Phone Number</label>
+                        <input id="phone" type="text">
+                        <span></span>
+                        <label for="">Address</label>
+                        <input id="dir" type="text">
+                        <span></span>
+                    </div>
+                    <div class="col2">
+                        <label for="">Location</label>
+                        <input id="local" type="text">
+                        <span></span>
+                        <label for="">Postal Code</label>
+                        <input id="pCode" type="text">
+                        <span></span>
+                        <label for="">E-mail</label>
+                        <input id="mailSign" type="text">
+                        <span></span>
+                        <label for="">Password</label>
+                        <input id="passSign" type="password">
+                        <span></span> 
+                        <label for="">Repeat Password</label>
+                        <input id="passValidate" type="password">
+                        <span></span>
+                    </div>
+                </div>
+                <button>Continue</button>
         </div>
-            <div class="data">
-                <div class="col1">
-                    <p>Name</p>
-                    <input type="text">
-                    <p>Last Name</p>
-                    <input type="text">
-                    <p>DNI</p>
-                    <input type="text">
-                    <p>Birth Date</p>
-                    <input type="date">
-                    <p>Phone Number</p>
-                    <input type="text">
-                    <p>Address</p>
-                    <input type="text">
-                </div>
-                <div class="col2">
-                    <p>Location</p>
-                    <input type="text">
-                    <p>Postal Code</p>
-                    <input type="text">
-                    <p>E-mail</p>
-                    <input type="text">
-                    <p>Password</p>
-                    <input type="text">
-                    <p>Repeat Password</p>
-                    <input type="text">
-                </div>
+        <footer>
+            <p><em>Copyright © 2023 MegaRocket SA. All rights reserved.</em></p>
+            <div class="foot-icon">
+              <img id="logo-in" src="/Assets/Img/InLogo.ico" alt="INLogo">
+              <img id="logo-facebook" src="/Assets/Img/FacebookLogo.ico" alt="Logo Facebook">
+              <img id="logo-ig" src="/Assets/Img/IGLogo.ico" alt="Logo Instagram">
             </div>
-            <button>Continue</button>
-
-    </div>
+          </footer>
+    </main>
 </body>
 </html>

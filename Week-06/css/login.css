@@ -100,7 +100,7 @@ button{
     background-color: #d32f2f;
 }
 .correct{
-    background-color:green ;
+    background-color:lightgreen ;
 }
 .visible{
     display: block;
