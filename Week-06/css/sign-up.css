@@ -71,6 +71,11 @@ button{
 .visible{
     display: block;
 }
+span{
+    height: 25px;
+    color: red;
+    display: none;  
+}
 @media only screen and (max-width:600px){
    .data{
     flex-direction: column;
