@@ -258,7 +258,7 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         top: 0;
         left: 0;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         
     }
     aside h3{
@@ -280,11 +280,21 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         border: 1px solid rgba(0, 0, 0, 1);
         border-radius: 20px;
         background-color: rgba(81, 168, 132, 1);
-        margin-left: 23px;
         list-style: none;
         margin-top:25px;
         margin-bottom:25px;
         color: #FFFFFF;
+    }
+    .li-container{
+        display:flex;
+        text-align: center;
+        
+    }
+    .ul-title li{
+       margin-top:25px
+    }
+    .img-container{
+        display:none;
     }
     aside .Menu2{
         box-sizing: border-box;
@@ -292,6 +302,8 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         border: 1px solid #000000;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
     }
     aside h5{
         font-family: 'Roboto';
@@ -373,7 +385,7 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
     #section2 .opt1,.opt2,.opt3,.opt4{
         width: 49%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         box-sizing: border-box;
         padding: 0 10px 0 10px;
         
@@ -407,12 +419,19 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
     #section4 p{
         padding: 20px 10px 0 10px;
     }
+    .Menu2{
+        flex-direction: column;
+    }
 }
 /* For Desktop: */
 @media only screen and (min-width:1024px) {
     main{
         width: 70vw;
         margin-left: 30vw;
+    }
+    .TitleMenu{
+        width: auto;
+        align-self: center;
     }
     header{
         margin-left: 30vw;
@@ -421,8 +440,7 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         width: 70vw;
     }
     #section1,#section2,#section3,#section4,#section5{
-        width: 70vw;
-        
+        width: 70vw;   
     }
     #section1 p{
         text-align: left;
@@ -440,16 +458,13 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         margin-left: 84px;
         
     }
-    #section2 .op1p,.op2p,.op3p,.op4p{
-        width: 442px;
-        
-    }
     #section2 p{
+        width: 30vw;
         line-height: 25px;
-        margin-top: 20px;
+        margin-top: 40px;
         margin-bottom: 20px;
         font-family: Roboto;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 400;
         line-height: 35px;
         letter-spacing: 0em;
@@ -463,7 +478,7 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
     }
     #section2 h3{
         font-family: Roboto;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
         line-height: 35px;
         letter-spacing: 0em;
@@ -536,13 +551,12 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
     }
     aside {
         width: 30vw;
-        height: 1068px;
         background: rgba(229, 242, 237, 1);
-        display: block;
-        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         top: 0;
         left: 0;
-        /*display: none;*/
     }
     aside h3{
         width: 30vw;
@@ -580,27 +594,21 @@ footer .foot-icon #logo-in,#logo-facebook,#logo-ig{
         text-decoration: none;
     }
     aside .Menu2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 25vw;
-        height: 409px;
-        left: 22.77px;
-        top: 503px;
         background-color: rgba(81, 168, 132, 1);
         margin-top: 20px;
         margin-left: 23px;
-        border: 1px solid rgba(0, 0, 0, 1)
+        border: 1px solid rgba(0, 0, 0, 1);
+        display: none;
+
     }
     aside .Menu2 h5{
-        width: 191px;
-        height: 38px;
-        left: 108px;
-        top: 510px;
-        padding-left: 82.23px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 38px;
-        text-align: center;
+        display: flex;
+        align-self: center;
+        
     }
     aside .Menu2 ul{
         margin-inline-start: 100px;

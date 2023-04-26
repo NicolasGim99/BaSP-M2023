@@ -298,8 +298,16 @@ window.onload = function () {
     button.addEventListener("click" , function(e){
         e.preventDefault();
         alert(full);
-        console.log(e.target);
-
+        name.value = "";
+        lastName.value = "";
+        dni.value = "";
+        phone.value = "";
+        dir.value = "";
+        local.value = "";
+        pCode.value = "";
+        mail.value ="";
+        passW.value = "";
+        passW2.value = "";
     });
    
     

@@ -84,12 +84,16 @@ body{
     line-height: 19px;
     text-align: center;
 }
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 button{
     width: 70%;
-    align-self: center;
     margin-top: 42px;
     margin-bottom: 25px;
-    width: 290px;
+    width: 30vw;
     height: 48px;
     background: #AACE9B;
     border-radius: 8px;

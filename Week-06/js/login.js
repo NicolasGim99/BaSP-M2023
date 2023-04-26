@@ -3,10 +3,13 @@ window.onload = function () {
     var mail = document.getElementById("mail");
     var emailExpression = new RegExp(/^[^@]+@[^@]+.[a-zA-Z]{2,}$/);
     var passw = document.getElementById("pass");  
-    var button = document.getElementById("button");
+    var button1 = document.getElementById("button1");
+    var button2 = document.getElementById("button2");
+    var button3 = document.getElementById("button3");
     var span = document.getElementById("invalid-mail");
     var spanP = document.getElementById("invalid-value");
     var errorMsg = "";
+    var full2 = "";
    /* mail.addEventListener("blur", function(){
         if(!emailExpression.test(mail.value)){
             span.classList.add("visible");
@@ -32,6 +35,7 @@ window.onload = function () {
         mail.classList.remove("error");
         span.classList.remove("visible");
         console.log("Valid E-Mail");
+        full2 = "E-mail: " + mail.value;
        } else {
         mail.classList.add("error");
         mail.classList.remove("correct");
@@ -56,6 +60,7 @@ window.onload = function () {
             passw.classList.add("correct");
             passw.classList.remove("error");
             spanP.classList.remove("visible");
+            full2 = full2 + "Password: " + passw.value;
             console.log("Valid Password");
         } else {
             passw.classList.add("error");
@@ -63,31 +68,14 @@ window.onload = function () {
             spanP.classList.add("visible");
             console.log("Invalid Password");
         }
+        button2.addEventListener("click" , function(e){
+            e.preventDefault();
+            mail.value = "";
+            passw.value =""
+        });
     });
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    button.addEventListener("click" , function(e){
-        e.preventDefault();
-        console.log(e.target);
-    });
-       
+
+
     
     
     
